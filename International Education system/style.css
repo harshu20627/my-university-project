@@ -1,0 +1,1036 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    height: 700px;
+    width: 100%;
+    background-image: url("./images/main_image.jpg");
+    background-size: 100% 700px;
+}
+.navbar{
+    height: 60px;
+    width: 100%; 
+    /* border: 2px solid; */
+}
+i{
+    font-size: 45px;
+    color:bisque;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.cover{
+    background-color: #00000093;
+    height: 700px;
+    width: 100%;
+}
+
+.education{
+    color: #ff9d00;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+    left: 85px;
+    font-size: 50px;
+}
+.navbar .list1 li a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 20px;
+}
+.navbar .list1 li{
+    display: block;
+    float: left;
+    margin: 20px;
+}
+.navbar .list1{
+    position: absolute;
+    right: 50px;
+    top: 15px;
+}
+.navbar .list1 a::after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color:gold;
+    display: block;
+    transition: 1s;
+    margin: auto;
+}
+.navbar .list1 a:hover:after{
+    width: 100%;
+}
+.HM{
+    color: #ff9d00;
+    font-variant: small-caps;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 230px;
+    left: 350px;
+    font-size: 50px;
+}
+.aa{
+    color:antiquewhite;
+    position: absolute;
+    top: 305px;
+    left: 350px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.btn1{
+    position: absolute;
+    top: 360px;
+    left: 600px;
+    height: 40px;
+    width: 200px;
+    background-color:#ff9d00;
+    color: #000000;
+    border: 2px solid #ff9d00;
+    border-radius: 5px;
+
+}
+.btn1::before{
+    content: "";
+    height: 2px;
+    width: 45%;
+    background-color: bisque;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: -110px;
+}
+.btn1::after{
+    content: "";
+    height: 2px;
+    width: 45%;
+    background-color: bisque;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: -110px;
+}
+.btn1:hover{
+    background-color:rgb(40, 2, 2);
+    border: 2px solid rgb(40, 2, 2);
+    color: #ffffff;
+    
+}
+.middle{
+    height: 3500px;
+    width: 100%;
+    background-color:antiquewhite;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.b{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+.bb{
+    text-align: center;
+    padding-top: 10px;
+}
+.one1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.one{
+    height: 200px;
+    width: 300px;
+    background-color:brown;
+    border-radius: 15px;
+    transition: 1s;
+}
+h2{
+    color:bisque;
+    text-align: center;
+    padding-top: 20px;
+}
+.cc{
+    text-align: justify;
+    padding: 15px;
+    color:bisque;
+}
+.one:hover{
+    box-shadow:0px 10px 40px black;
+    transform: scale(1.3);
+}
+.d{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+.dd{
+    text-align: center;
+}
+.campus{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.campus1{
+    height: 350px;
+    width: 350px;
+    background-image: url("./images/campus1.webp");
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+}
+.campus2{
+    height: 350px;
+    width: 350px;
+    background-image: url("./images/campus2.jpeg");
+    background-size: 350px 350px;
+}
+.campus3{
+    height: 350px;
+    width: 350px;
+    background-image: url("./images/campus3.jpg");
+    background-size: 350px 350px;
+}
+.facility{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+}
+.facility1{
+    text-align: center;
+}
+.faci{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.faci1{
+    height: 300px;
+    width: 300px;
+    background-image: url("./images/library.webp");
+    background-size: 300px 300px;
+    position: relative;
+    transition: 1s;
+    transform: perspective(150px);
+}
+.faci1:hover{
+    box-shadow: 0px 5px 20px black;
+    transform: scale(1.3);
+    transform: rotateY(180deg);
+}
+.faci2{
+    height: 300px;
+    width: 300px;
+    background-image: url("./images/playing.jpg");
+    background-size: 300px 300px;
+    position: relative;
+    transition: 1s;
+    transform: perspective(150px);
+}
+.faci2:hover{
+    box-shadow: 0px 5px 20px black;
+    transform: scale(1.3);
+    transform: rotateY(180deg);
+}
+.faci3{
+    height: 300px;
+    width: 300px;
+    background-image: url("./images/classroom.jpeg");
+    background-size: 300px 300px;
+    position: relative;
+    transition: 1s;
+    transform: perspective(150px);
+}
+.faci3:hover{
+    box-shadow: 0px 5px 20px black;
+    transform: scale(1.3);
+    transform: rotateY(180deg);
+}
+.facii{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa1{
+    height: 50px;
+    width: 300px;
+    color: #000000;
+}
+.fa2{
+    height: 50px;
+    width: 300px;
+    color: #000000;
+}
+.fa3{
+    height: 50px;
+    width: 300px;
+    color: #000000;
+}
+.faCont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa11{
+    height: 200px;
+    width: 300px;
+    text-align: justify;
+}
+.fa22{
+    height: 200px;
+    width: 300px;
+    text-align: justify;
+}
+.fa33{
+    height: 200px;
+    width: 300px;
+    text-align: justify;
+}
+.ra{
+    text-align: center;
+    font-size: 40px;
+}
+.Rpara{
+    text-align: center;
+}
+.feedback{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.feed1{
+    height: 250px;
+    width: 500px;
+    border: 1px solid;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-right: 10px;
+    position: relative;
+}
+.feed2{
+    height: 250px;
+    width: 500px;
+    border: 1px solid;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-right: 10px;
+    position: relative;
+}
+.feedback .fa-regular{
+    height: 39px;
+    width: 39px;
+    color: #000000;
+    position: absolute;
+    left: 135px;
+    bottom: -1880px;
+    font-size: 30px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.feedback .fa-solid{
+    height: 39px;
+    width: 39px;
+    color: #000000;
+    position: absolute;
+    left: 725px;
+    bottom: -1880px;
+    font-size: 30px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: #ffffff;
+    
+}
+.feed1 img{
+    height: 50px;
+    position: absolute;
+    top: 180px;
+    left: 55px;
+}
+.feed2 img{
+    height: 50px;
+    position: absolute;
+    top: 180px;
+    left: 55px;
+}
+.Enroll{
+    height: 600px;
+    width: 1250px;
+    position: absolute;
+    bottom: -2850px;
+    left: 75px;
+    overflow: hidden;
+
+}
+
+.Enroll img{
+    height: 600px;
+    width: 1250px;
+    transition: 4s;
+}
+img{
+    filter: brightness(40%);
+}
+.Enroll:hover img{
+    transform: scale(1.2);
+}
+.en{
+position: absolute;
+top: 200px;
+left: 300px;
+font-size: 40px;
+color:bisque;
+text-align: center;
+z-index: 1;
+}
+.enbt{
+    z-index: 1;
+    position: absolute;
+    top: 350px;
+    left: 550px;
+    height: 40px;
+    width: 200px;
+    background-color:#ff9d00;
+    border: 2px solid #ff9d00;
+}
+.enbt::before{
+    content: "";
+    height: 2px;
+    width: 40px;
+    background-color: bisque;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: -30px;
+}
+.enbt::after{
+    content: "";
+    height: 2px;
+    width: 40px;
+    background-color: bisque;
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: -30px;
+}
+.enbt:hover{
+    background-color:rgb(40, 2, 2);
+    border: 2px solid rgb(40, 2, 2);
+    color: #ffffff;
+}
+
+.abh{
+    font-size: 20px;
+    position: absolute;
+    top: 3800px;
+    text-align: center;
+    left: 650px;
+}
+.abpa{
+    padding-top: 20px;
+    position: absolute;
+    top: 3820px;
+    left: 300px;
+    text-align: center;
+}
+.fa-facebook-f{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 3900px;
+    left: 570px;
+}
+.fa-twitter{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 3900px;
+    left: 620px;
+}
+.fa-instagram{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 3900px;
+    left: 670px;
+}
+.fa-linkedin-in{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 3900px;
+    left: 720px;
+}
+.abpa1{
+    color: #000000;
+    position: absolute;
+    top: 4140px;
+    left: 610px;
+    margin-top: 20px;
+}
+.abpa1::before{
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: #ff9d00;
+    display: flex;
+    position: absolute;
+    top: 8px;
+    left: -120px;
+}
+
+.abpa1::after{
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: #ff9d00;
+    display: flex;
+    position: absolute;
+    top: 8px;
+    right: -120px;
+}
+.detail{
+    height: 700px;
+    width: 100%;
+    background-image: url("./images/about.jpg");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cover1{
+    height: 600px;
+    width: 100%;
+    background-color: #000000a4;
+}
+.dh{
+    color: #ff9d00;
+    position: absolute;
+    top: 300px;
+    left: 650px;
+}
+.dh::before{
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: bisque;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: -60px;
+}
+.dh::after{
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: bisque;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: -60px;
+}
+.dmiddle{
+    height: 600px;
+    width: 100%;
+    padding: 100px;
+    position: absolute;
+    top: 650px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.explore1{
+    height: 400px;
+    width: 500px;
+    position: relative;
+}
+.explore2{
+    height: 400px;
+    width: 500px;
+}
+.dmp{
+    padding-top: 20px;
+}
+.explore2{
+    background-image: url("./images/ABOUT_middle.avif");
+}
+.debtn{
+    height: 30px;
+    width: 150px;
+    background-color: #ff9d00;
+    border: #ff9d00;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+.debtn::before{
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: #000000;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: -40px;
+}
+.debtn::after{
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: #000000;
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: -40px;
+}
+.debtn:hover{
+    background-color:rgb(40, 2, 2);
+    border: 2px solid rgb(40, 2, 2);
+    color: #ffffff;
+}
+.debtn:hover:before{
+    height: 2px;
+    position: absolute;
+    top: 13px;
+    background-color: #ff9d00;
+}
+.debtn:hover::after{
+    height: 2px;
+    position: absolute;
+    top: 13px;
+    background-color: #ff9d00;
+}
+.Aabh{
+    font-size: 20px;
+    position: absolute;
+    top: 1300px;
+    text-align: center;
+    left: 650px;
+}
+.Aabpa{
+    padding-top: 20px;
+    position: absolute;
+    top: 1320px;
+    left: 300px;
+    text-align: center;
+}
+.Aabout .fa-facebook-f{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 1390px;
+    left: 570px;
+}
+.Aabout .fa-twitter{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 1390px;
+    left: 620px;
+}
+.Aabout .fa-instagram{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 1390px;
+    left: 670px;
+}
+.Aabout .fa-linkedin-in{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 1390px;
+    left: 720px;
+}
+.Aabout .abpa1{
+    color: #000000;
+    position: absolute;
+    top: 1580px;
+    left: 610px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.courses{
+    height: 700px;
+    width: 100%;
+    background-image: url("./images/about.jpg");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.Cabh{
+    font-size: 20px;
+    position: absolute;
+    top: 1900px;
+    text-align: center;
+    left: 650px;
+}
+.Cabpa{
+    padding-top: 20px;
+    position: absolute;
+    top: 1920px;
+    left: 300px;
+    text-align: center;
+}
+.Cabout .fa-facebook-f{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 1990px;
+    left: 570px;
+}
+.Cabout .fa-twitter{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 1990px;
+    left: 620px;
+}
+.Cabout .fa-instagram{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 1990px;
+    left: 670px;
+}
+.Cabout .fa-linkedin-in{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 1990px;
+    left: 720px;
+}
+.Cabout .Cabpa1{
+    color: #000000;
+    position: absolute;
+    top: 2190px;
+    left: 610px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.Cabpa1::before{
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: #ff9d00;
+    display: flex;
+    position: absolute;
+    top: 8px;
+    left: -120px;
+}
+
+.Cabpa1::after{
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: #ff9d00;
+    display: flex;
+    position: absolute;
+    top: 8px;
+    right: -120px;
+}
+.blog{
+    height: 700px;
+    width: 100%;
+    background-image: url("./images/about.jpg");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.blogh1{
+    color: #ff9d00;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+.certificate{
+    height: 600px;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.certi{
+    height: 400px;
+    width: 700px;
+    margin-top: -80px;
+    background-image: url("./images/post_certificate.jpg");
+    background-size: 700px 400px;
+    background-repeat: no-repeat;
+    filter: brightness(70%);
+}
+.post_certificate{
+    height: 400px;
+    width: 400px;
+    margin-top: -80px;
+}
+.post{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(245, 68, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 23px;
+}
+.category1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    width: 300px;
+}
+.category2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    width: 60px;
+    text-align: end;
+    position: relative;
+    top: -296px;
+    left: 339px;
+}
+.certih1{
+    position: absolute;
+    top: 400px;
+    color: #000000;
+}
+.certipa1{
+    position: absolute;
+    top: 460px;
+    color: #000000;
+    text-align: justify;
+}
+.certipa2{
+    position: absolute;
+    top: 580px;
+    color: #000000;
+    text-align: justify;
+}
+.certipa3{
+    position: absolute;
+    top: 670px;
+    color: #000000;
+    text-align: justify;
+}
+.certipa4{
+    position: absolute;
+    top: 760px;
+    color: #000000;
+    text-align: justify;
+}
+.leave{
+    height: 500px;
+    width: 79%;
+    margin-top: 300px;
+    margin-left: 120px;
+}
+fieldset{
+    width: 65%;
+}
+.leaveh2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: -220px;
+    color: #000000;
+}
+.leavename{
+    margin-left: 41px;
+    margin-top: 20px;
+    height: 30px;
+    width: 500px;
+    background-color: rgba(128, 128, 128, 0.344);
+    border: rgba(128, 128, 128, 0.344);
+}
+.leavename::placeholder{
+    padding-left: 10px;
+}
+.leavename1{
+    margin-left: 41px;
+    margin-top: 20px;
+    height: 100px;
+    width: 500px;
+    background-color: rgba(128, 128, 128, 0.344);
+    border: rgba(128, 128, 128, 0.344);
+}
+.Leavebtn{
+    margin-left: 61px;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    border: 2px solid brown;
+    background-color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    margin-bottom: 40px;
+}
+.Leavebtn::before{
+    content: "";
+    height: 2px;
+    width: 30px;
+    background-color: brown;
+    display: block;
+    position: absolute;
+    top: 17px;
+    left: -20px;
+}
+.Leavebtn::after{
+    content: "";
+    height: 2px;
+    width: 30px;
+    background-color: brown;
+    display: block;
+    position: absolute;
+    top: 17px;
+    right: -20px;
+}
+.Babh{
+    font-size: 20px;
+    position: absolute;
+    top: 2100px;
+    text-align: center;
+    left: 650px;
+}
+.blogpa{
+    padding-top: 20px;
+    position: absolute;
+    top: 2120px;
+    left: 300px;
+    text-align: center;
+}
+.Babout .fa-facebook-f{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 2190px;
+    left: 570px;
+}
+.Babout .fa-twitter{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 2190px;
+    left: 620px;
+}
+.Babout .fa-instagram{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 2190px;
+    left: 670px;
+}
+.Babout .fa-linkedin-in{
+    color: #000000;
+    position: absolute;
+    font-size: 25px;
+    top: 2190px;
+    left: 720px;
+}
+.Babout .abpa1{
+    color: #000000;
+    position: absolute;
+    top: 2380px;
+    left: 610px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.contact{
+    height: 700px;
+    width: 100%;
+    background-image: url("./images/about.jpg");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cover1{
+    height: 600px;
+    width: 100%;
+    background-color: #000000a4;
+}
+.dh{
+    color: #ff9d00;
+    position: absolute;
+    top: 300px;
+    left: 650px;
+}
+.map iframe{
+    position: relative;
+    left: 100px;
+}
+.map iframe:hover{
+    box-shadow: 0px 0px 30px black;
+}
+.contactdetail{
+    padding: 100px;
+    display: flex;
+}
+.cont1 i{
+    color: #000000;
+    font-size: 40px;
+}
+.cont1 .cont1h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 85px;
+    top: -40px;
+}
+.cont1 .cont1p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 85px;
+    top: -40px;
+}
+.cont1 .cont1h31{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 85px;
+    top: -40px;
+}
+.cont1 .cont1p1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 85px;
+    top: -40px;
+}
+.cont1 .cont1h32{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 85px;
+    top: -40px;
+}
+.cont1 .cont1p2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 85px;
+    top: -40px;
+}
+.cont2{
+    width: 100%;
+    margin-left: 200px;
+}
+.cont2 input{
+    height: 35px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.386);
+    border:  rgba(128, 128, 128, 0.386);
+}
+.cont2 input::placeholder{
+    padding-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cont2 textarea{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.386);
+    border:  rgba(128, 128, 128, 0.386);
+}
+.cont2 .message{
+    height: 40px;
+    width: 200px;
+    background-color:rgba(128, 128, 128, 0.386);
+    border: rgba(128, 128, 128, 0.386);
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cont2 textarea::placeholder{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
