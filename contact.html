@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("fcGsQ5fAskf26xj6F"); // Ye key aapko EmailJS se milegi
+   })();
+</script>
+</head>
+<body>
+    <div class="contact">
+        <div class="cover1">
+         <div class="navbar">
+            <i class="fa-solid fa-school"></i>
+            <h1 class="education">Education</h1>
+            <ul class="list1">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <h1 class="dh">Contact Us</h1>
+        </div>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15073.369381259923!2d73.00047473897372!3d19.18024407943617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf308c4a6045%3A0x501e21ee4a18a31d!2sSubhash%20Nagar%2C%20Dighe%2C%20Navi%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1773779004947!5m2!1sen!2sin" width="1200" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contactdetail">
+        <div class="cont1">
+            <i class="fa-regular fa-house"></i>
+            <h3 class="cont1h3">Digha M.I.D.C Road Navi Mumbai 400708 </h3>
+            <p class="cont1p">Thane Maharastra</p>
+            <i class="fa-solid fa-phone"></i>
+            <h3 class="cont1h31">+91 8591405001</h3>
+            <p class="cont1p1">Mondat to Saturday 10 am to 6 pm</p>
+            <i class="fa-solid fa-envelope"></i>
+            <h3 class="cont1h32">Harshmarothiya3535@gmail.com</h3>
+            <p class="cont1p2">Email us your query</p>
+        </div>
+        <div class="cont2">
+    <input type="text" id="from_name" placeholder="Enter your Name">
+    <br><br>
+    <input type="email" id="email_id" placeholder="Enter email Address">
+    <br><br>
+    <input type="text" id="subject" placeholder="Enter your Subject">
+    <br><br>
+    <textarea id="message" placeholder="Message"></textarea>
+    <button class="message" onclick="SendMail()">Send Message</button>
+</div>
+    </div>
+</body>
+</html>
